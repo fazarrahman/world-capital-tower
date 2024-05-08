@@ -1,8 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import "./globals.css";
+//import "./globals.css";
 import BootstrapClient from '@/components/BootstrapClient.js'
+import "@/css/color.css"
+import "@/css/style.css"
+import "@/css/jpreloader.css"
+import "@/css/animate.css"
+import "@/css/owl.carousel.css"
+import "@/css/magnific-popup.css"
+import "@/css/style.css"
+import "@/css/bg.css"
+import Head from 'next/head';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,6 +27,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <script src="@/js/jquery.min.js"></script>
+        <script src="@/js/jpreLoader.js"></script>
+        <script src="@/js/jquery.isotope.min.js"></script>
+        <script src="@/js/easing.js"></script>
+        <script src="@/js/owl.carousel.js"></script>
+        <script src="@/js/jquery.countTo.js"></script>
+        <script src="@/js/validation.js"></script>
+        <script src="@/js/wow.min.js"></script>
+        <script src="@/js/jquery.magnific-popup.min.js"></script>
+        <script src="@/js/enquire.min.js"></script>
+        <script src="@/js/jquery.stellar.min.js"></script>
+        <script src="@/js/designesia.js"></script>
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
