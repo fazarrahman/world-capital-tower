@@ -1,4 +1,6 @@
 import React from 'react';
+import "../app/common_style.css";
+import { FaPhone } from "react-icons/fa6";
 
 function Navbar() {
   return (
@@ -7,11 +9,8 @@ function Navbar() {
         <div className="col-lg-3 d-none d-lg-block">
           <div className="nav-links">
             <a href="#" className="me-5">
-              <i className="la la-tty cir-icon"></i>
-              <span className="txt"> +75 6531 86 86 </span>
-            </a>
-            <a href="#" className="">
-              <span className="txt"> 3d tour </span>
+              <i className="la la-tty cir-icon"><FaPhone color='white' /></i>
+              <span className="txt"> +62 8531 86 86 </span>
             </a>
           </div>
         </div>
@@ -24,7 +23,7 @@ function Navbar() {
           <div className="nav-btns">
             <a
               href="#"
-              className="butn border rounded-pill border-brown1 hover-bg-brown1 text-uppercase color-brown1"
+              className="butn border border-brown1 rounded-pill hover-bg-brown1 text-uppercase color-brown1"
             >
               <span> schedule a visit </span>
             </a>

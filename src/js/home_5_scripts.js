@@ -1,6 +1,7 @@
-window.$ = window.jQuery = require('jquery')
+import './loader.js'
 
 $( function() {
+    
     // ----------- side menu -----------
     $(document).ready(function () {
         $(".side_menu_btn").on("click", function () {

@@ -1,6 +1,7 @@
-window.$ = window.jQuery = require('jquery')
+import './loader.js'
 
 $( function() {
+
     var wind = $(window);
 
     wow = new WOW({

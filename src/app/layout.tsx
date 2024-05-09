@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,10 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        
-      </head>
-      <body className={inter.className}>{children}</body>
+      <Head>
+        <script src="assets/js/home_5_scripts.js"></script>
+        <script src="common/assets/js/common_js.js"></script>
+      </Head>
+      <body className="home-style5">{children}</body>
     </html>
   );
 }

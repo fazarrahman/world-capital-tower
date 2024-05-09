@@ -12,35 +12,30 @@ import Testimonials from '../components/Testimonials';
 import Services from '../components/Services';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
-import Head from 'next/head';
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
 
 function Home() {
   return (
-    <>
-      <Head>
-        <script src="/common/assets/js/common_js.js"></script>
-        <script src="/assets/js/home_5_scripts.js"></script>
-      </Head>
-      <body className="home-style5">
-        <Loader />
-        <Menu />
-        <div className="smooth-scroll-content" id="scrollsmoother-container">
-          <Navbar />
-          <Header />
-          <main>
-            <About />
-            <Flawless />
-            <Location />
-            <Apartments />
-            <Testimonials />
-            <Services />
-            <Blog />
-          </main>
-          <Footer />
-        </div>
-        <StartButton />
-      </body>
-    </>
+    <main>
+      <Menu />
+      <div className="smooth-scroll-content" id="scrollsmoother-container">
+        <Navbar />
+        <Header />
+        <main>
+          <About />
+          <Flawless />
+          <Location />
+          <Apartments />
+          <Testimonials />
+          <Services />
+          <Blog />
+        </main>
+        <Footer />
+      </div>
+      <StartButton />
+    </main>
   );
 }
 
