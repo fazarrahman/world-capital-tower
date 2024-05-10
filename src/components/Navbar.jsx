@@ -4,7 +4,7 @@ import { FaPhone } from "react-icons/fa6";
 
 function Navbar() {
   return (
-    <nav className="navbar tc-navbar-style5">
+    <nav className="navbar tc-navbar-style5 fixed-top">
       <div className="container">
         <div className="col-lg-3 d-none d-lg-block">
           <div className="nav-links">

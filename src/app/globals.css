@@ -203,6 +203,7 @@ body {
   width: 100%;
   z-index: 99;
   padding: 50px 0;
+  background-color: rgba(41, 40, 40, 0.35);
   color: #fff;
 }
 .tc-navbar-style5 .cir-icon {

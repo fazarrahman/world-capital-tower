@@ -1,5 +1,4 @@
 import React from 'react';
-import Loader from '../components/common/Loader';
 import StartButton from '../components//StartButton';
 import Menu from '../components/Menu';
 import Navbar from '../components/Navbar';
