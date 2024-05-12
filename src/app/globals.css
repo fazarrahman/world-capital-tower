@@ -394,7 +394,7 @@ body {
   margin-top: -350px;
 }
 .tc-about-style5 .content .about-title {
-  font-size: 75px;
+  font-size: 50px;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -1411,7 +1411,7 @@ body {
   }
 }
 .home-style5 {
-  background-color: #373E43;
+  background-color: #d2d0d0;
   color: #fff;
 }
 .home-style5 h1, .home-style5 h2, .home-style5 h3, .home-style5 .sub-font {

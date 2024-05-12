@@ -1,5 +1,7 @@
 import React from 'react';
 import TextAppearDelay from './ui/TextAppearDelay';
+import "../app/common_style.css";
+import FadeInImageOnScroll from './ui/ImageAppeardelay';
 
 function About() {
   return (
@@ -28,12 +30,8 @@ function About() {
                 </div>
               </div>
               <div className="col-lg-4">
-                <div className="img wow zoomIn slow" data-wow-delay="0.2s">
-                  <img
-                    src="/assets/images/header.jpg"
-                    alt=""
-                    className="img-cover"
-                  />
+                <div className="img">
+                <FadeInImageOnScroll className="img-cover" imageUrl="/assets/images/header.jpg" />
                 </div>
               </div>
               <div className="col-lg-3">
