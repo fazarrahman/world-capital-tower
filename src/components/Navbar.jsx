@@ -8,9 +8,9 @@ function Navbar() {
       <div className="container">
         <div className="col-lg-3 d-none d-lg-block">
           <div className="nav-links">
-            <a href="#" className="me-5">
+            <a href="#" className="me-5 mb-3">
               <i className="la la-tty cir-icon"><FaPhone color='white' /></i>
-              <span className="txt"> +62 8531 86 86 </span>
+              <span className="txt pb-2"> +62 8531 86 86 </span>
             </a>
           </div>
         </div>
@@ -25,7 +25,7 @@ function Navbar() {
               href="#"
               className="butn border border-brown1 rounded-pill hover-bg-brown1 text-uppercase color-brown1"
             >
-              <span> schedule a visit </span>
+              <span> contact us </span>
             </a>
             <a href="#" className="icon ms-4 side_menu_btn">
               <span>

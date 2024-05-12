@@ -256,7 +256,8 @@ body {
   color: var(--color-brown1);
 }
 .tc-navbar-style5 .logo img {
-  height: 50px;
+  height: 100px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
@@ -283,15 +284,19 @@ body {
   background-color: #000;
   opacity: 0.3;
 }
+.tc-header-style5 .main-content {
+  margin-left: 5rem;
+}
 .tc-header-style5 .main-content .title {
   border-bottom: 1px solid #999;
   padding: 20px 0;
 }
 .tc-header-style5 .main-content .title h1 {
-  font-size: 300px;
+  font-size: 80px;
   font-weight: 400;
+  line-height: 80px;
+  width: 50px;
   text-transform: uppercase;
-  white-space: nowrap;
 }
 .tc-header-style5 .btm-content {
   margin-top: 150px;

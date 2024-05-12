@@ -24,12 +24,7 @@ function Home() {
         <Header />
         <main>
           <About />
-          <Flawless />
-          <Location />
           <Apartments />
-          <Testimonials />
-          <Services />
-          <Blog />
         </main>
         <Footer />
       </div>

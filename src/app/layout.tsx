@@ -18,10 +18,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <script src="assets/js/home_5_scripts.js"></script>
-        <script src="common/assets/js/common_js.js"></script>
-      </Head>
       <body className="home-style5">{children}</body>
     </html>
   );
