@@ -738,10 +738,10 @@ body {
 .tc-location-style5 .location-slider .swiper-slide.swiper-slide-active .slider-card {
   opacity: 1;
 }
-.tc-location-style5 .location-slider .arrows {
+.arrows {
   position: absolute;
-  right: calc((100vw - 1320px) / 2 );
-  bottom: 140px;
+  right: 100px; 
+  bottom: 50px;
   z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -750,8 +750,8 @@ body {
       -ms-flex-pack: end;
           justify-content: end;
 }
-.tc-location-style5 .location-slider .arrows .swiper-button-next,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev {
+.arrows .swiper-button-next,
+.arrows .swiper-button-prev {
   position: static;
   -webkit-margin-start: 10px;
           margin-inline-start: 10px;
@@ -762,19 +762,19 @@ body {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tc-location-style5 .location-slider .arrows .swiper-button-next::after,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev::after {
+.arrows .swiper-button-next::after,
+.arrows .swiper-button-prev::after {
   font-size: 30px;
   color: #fff;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.tc-location-style5 .location-slider .arrows .swiper-button-next:hover,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev:hover {
+.arrows .swiper-button-next:hover,
+.arrows .swiper-button-prev:hover {
   background-color: var(--color-brown1);
 }
-.tc-location-style5 .location-slider .arrows .swiper-button-next:hover::after,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev:hover::after {
+.arrows .swiper-button-next:hover::after,
+.arrows .swiper-button-prev:hover::after {
   color: #000;
 }
 .tc-location-style5 .location-slider .slider-card {

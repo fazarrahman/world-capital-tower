@@ -4,22 +4,6 @@ function Flawless() {
   return (
     <section className="tc-flawless-style5">
       <div className="container">
-        <div className="title mb-120">
-          <div className="row justify-content-between">
-            <div className="col-lg-6">
-              <h2 className="fsz-70 text-uppercase fw-400 js-splittext-lines">
-                <span className="color-brown1"> Flawless </span> <br />
-                infrastructure
-              </h2>
-            </div>
-            <div className="col-lg-5">
-              <h6 className="color-brown1 text-uppercase fsz-24 lh-4 js-splittext-lines">
-                A THOUSAND AND ONE WAYS TO TREAT YOURSELF AND THE ONES YOU LOVE
-                – ON HAND WHENEVER YOU WANT.
-              </h6>
-            </div>
-          </div>
-        </div>
         <div className="flawless wow zoomIn slow" data-wow-delay="0.2s">
           <div className="flex-accordion">
             <ul className="acc-list">

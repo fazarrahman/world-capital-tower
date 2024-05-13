@@ -12,6 +12,7 @@ import Services from '../components/Services';
 import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
+import Carousel from '@/components/ui/Carousel';
 
 
 
@@ -24,6 +25,7 @@ function Home() {
         <Header />
         <main>
           <About />
+          <Carousel />
           <Apartments />
         </main>
         <Footer />

@@ -1,7 +1,7 @@
 import React from 'react';
 import TextAppearDelay from './ui/TextAppearDelay';
 import "../app/common_style.css";
-import FadeInImageOnScroll from './ui/ImageAppeardelay';
+import FadeInImageOnScroll from './ui/ImageAppearDelay';
 
 function About() {
   return (
