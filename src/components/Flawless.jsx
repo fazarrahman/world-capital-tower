@@ -20,7 +20,7 @@ function Flawless() {
                         {item.subTitle.split('<br />')[0]} <br />{' '}
                         {item.subTitle.split('<br />')[1]}
                       </h3>
-                      <a href="#" className="float-arrow">
+                      <a href="#" className="                                  x">
                         <i className="fat fa-arrow-up-right"></i>
                       </a>
                     </div>

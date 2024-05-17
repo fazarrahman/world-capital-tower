@@ -31,7 +31,7 @@ function About() {
               </div>
               <div className="col-lg-4">
                 <div className="img">
-                <FadeInImageOnScroll className="img-cover" imageUrl="/assets/images/header.jpg" />
+                <FadeInImageOnScroll className="img-cover" imageUrl="/assets/images/header3.jpg" />
                 </div>
               </div>
               <div className="col-lg-3">

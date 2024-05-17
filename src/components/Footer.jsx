@@ -5,7 +5,7 @@ function Footer() {
     <footer className="tc-footer-style5">
       <div className="container">
         <div className="title">
-          <h2 className=""> the archin </h2>
+          <h3 className="">THE WORLD CAPITAL TOWER </h3>
         </div>
         <div className="info">
           <div className="row">
@@ -34,7 +34,7 @@ function Footer() {
               </a>
             </div>
             <div className="col-lg-4 text-center py-4 py-lg-0">
-              <a href="#"> © 2023 archin complex residence </a>
+              <a href="#"> © 2023 the world capital tower </a>
             </div>
             <div className="col-lg-4 text-center text-lg-end">
               <div className="social-icons">

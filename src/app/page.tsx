@@ -13,6 +13,7 @@ import Blog from '../components/Blog';
 import Footer from '../components/Footer';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from '@/components/ui/Carousel';
+import Tenants from '@/components/Tenants';
 
 
 
@@ -25,8 +26,7 @@ function Home() {
         <Header />
         <main>
           <About />
-          <Carousel />
-          <Apartments />
+          <Tenants />
         </main>
         <Footer />
       </div>

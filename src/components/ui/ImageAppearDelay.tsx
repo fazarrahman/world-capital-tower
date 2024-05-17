@@ -1,8 +1,8 @@
 "use client"
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 
-const FadeInImageOnScroll = ({ imageUrl }) => {
+const FadeInImageOnScroll = ({imageUrl}: string) => {
   return (
     <motion.div
       id="image-container"

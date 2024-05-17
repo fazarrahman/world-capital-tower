@@ -265,11 +265,12 @@ body {
     position: relative;
   }
 }
+
 /* --------------- header style5 --------------- */
 .tc-header-style5 {
   position: relative;
   padding: 150px 0 430px;
-  background-image: url(/assets/images/header.jpg);
+  background-image: url(/assets/images/header4.jpg);
   background-size: cover;
   min-height: 100vh;
   overflow: hidden;
@@ -1331,8 +1332,8 @@ body {
   border-bottom: 1px solid #999;
   padding: 20px 0;
 }
-.tc-footer-style5 .title h2 {
-  font-size: 300px;
+.tc-footer-style5 .title h3 {
+  font-size: 80px;
   font-weight: 400;
   text-transform: uppercase;
   white-space: nowrap;
