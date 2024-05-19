@@ -1,5 +1,5 @@
 import React from 'react';
-import "../app/common_style.css";
+import "@/styles/common_style.css";
 import { FaPhone } from "react-icons/fa6";
 
 function Navbar() {
@@ -16,7 +16,7 @@ function Navbar() {
         </div>
         <div className="col-lg-6">
           <div className="logo text-center mb-4 mb-lg-0">
-            <img src="/assets/images/logo.png" alt="" />
+            <img src="/images/logo.png" alt="" />
           </div>
         </div>
         <div className="col-lg-3 text-lg-end">

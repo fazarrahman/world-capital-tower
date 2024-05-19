@@ -1,6 +1,5 @@
 import React from 'react';
 import TextAppearDelay from './ui/TextAppearDelay';
-import "../app/common_style.css";
 import FadeInImageOnScroll from './ui/ImageAppearDelay';
 
 function About() {
@@ -23,7 +22,7 @@ function About() {
                 </div>
                 <div className="logo-mo mt-60 th-160 op-4">
                   <img
-                    src="/assets/images/logo_mo.png"
+                    src="/images/logo_mo.png"
                     alt=""
                     className="img-contain"
                   />
@@ -31,7 +30,7 @@ function About() {
               </div>
               <div className="col-lg-4">
                 <div className="img">
-                <FadeInImageOnScroll className="img-cover" imageUrl="/assets/images/header3.jpg" />
+                <FadeInImageOnScroll className="img-cover" imageUrl="/images/header3.jpg" />
                 </div>
               </div>
               <div className="col-lg-3">
@@ -47,7 +46,7 @@ function About() {
         </div>
       </div>
       <img
-        src="/assets/images/about.png"
+        src="/images/about.png"
         alt=""
         className="float_img"
       />

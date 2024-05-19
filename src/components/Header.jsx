@@ -1,6 +1,5 @@
 "use client"
 import React from 'react';
-import "../app/common_style.css";
 import TextAppearDelay from './ui/TextAppearDelay';
 
 function Header() {
