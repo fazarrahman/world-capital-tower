@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import FrameComponent1 from "../components/frame-component1";
-import FrameComponent from "../components/frame-component";
+import About from "../components/about";
 import Footer from "../components/footer";
+import Tenants from "../components/tenants";
 
 const Desktop: NextPage = () => {
   return (
@@ -12,7 +12,7 @@ const Desktop: NextPage = () => {
         <Navbar />
         <Hero />
       </section>
-      <FrameComponent1 />
+      <About />
       <section className="w-[1420px] flex flex-row items-start justify-center pt-0 px-5 pb-[43px] box-border max-w-full shrink-0 text-center text-29xl text-dark-green font-section-title">
         <h1 className="m-0 w-[360px] relative text-inherit font-bold font-inherit inline-block shrink-0 max-w-full mq450:text-10xl mq1050:text-19xl">
           <span className="text-darkgoldenrod">Our</span>
@@ -20,7 +20,7 @@ const Desktop: NextPage = () => {
           <span>Tenants</span>
         </h1>
       </section>
-      <FrameComponent />
+      <Tenants />
       <Footer />
     </div>
   );

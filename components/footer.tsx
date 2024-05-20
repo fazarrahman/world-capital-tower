@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import DownloadBrochure from "./ui/downloadBrochure";
 
 const Footer: NextPage = () => {
   return (
@@ -12,18 +13,7 @@ const Footer: NextPage = () => {
             src="/logo-1@2x.png"
           />
         </div>
-        <div className="self-stretch flex flex-row items-start justify-start gap-[14px] max-w-full mq450:flex-wrap">
-          <div className="flex flex-col items-start justify-start pt-[5px] px-0 pb-0">
-            <img
-              className="w-[30px] h-[30px] relative z-[1]"
-              alt=""
-              src="/-icon-download-circled-outline.svg"
-            />
-          </div>
-          <div className="flex-1 relative font-medium inline-block min-w-[130px] max-w-full z-[1] mq450:text-lgi">
-            Download Brochure
-          </div>
-        </div>
+        <DownloadBrochure />
       </div>
       <div className="w-[824px] flex flex-col items-start justify-start gap-[28.5px] min-w-[824px] max-w-full ml-[-123px] lg:flex-1 lg:ml-0 mq1050:min-w-full">
         <div className="w-[797px] flex flex-row items-start justify-between max-w-full gap-[20px] mq1050:flex-wrap">

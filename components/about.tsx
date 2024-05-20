@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 
-const FrameComponent1: NextPage = () => {
+const About: NextPage = () => {
   return (
     <section className="self-stretch flex flex-row items-start justify-start pt-0 px-0 pb-[59px] box-border max-w-full shrink-0 text-center text-29xl text-darkgoldenrod font-section-title mq450:pb-[25px] mq450:box-border mq1050:pb-[38px] mq1050:box-border">
       <div className="flex-1 bg-dark-green flex flex-col items-center justify-start pt-[82px] px-5 pb-[132px] box-border gap-[49px] max-w-full mq750:gap-[24px] mq750:pt-[53px] mq750:pb-[86px] mq750:box-border">
@@ -45,4 +45,4 @@ const FrameComponent1: NextPage = () => {
   );
 };
 
-export default FrameComponent1;
+export default About;

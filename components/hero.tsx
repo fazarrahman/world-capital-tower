@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import DownloadBrochure from "./ui/downloadBrochure";
 
 const Hero: NextPage = () => {
   return (
@@ -17,17 +18,9 @@ const Hero: NextPage = () => {
         <h1 className="m-0 relative text-inherit font-semibold font-inherit inline-block max-w-full z-[2] mq450:text-10xl mq1050:text-19xl">
           The New Highlights in the city
         </h1>
-        <div className="flex flex-col items-start justify-start pt-[60px] px-0 pb-0">
-          <img
-            className="w-[30px] h-[30px] relative z-[2]"
-            loading="lazy"
-            alt=""
-            src="/-icon-download-circled-outline.svg"
-          />
-        </div>
       </div>
-      <div className="w-[381px] absolute !m-[0] right-[-45px] bottom-[66px] text-5xl font-medium flex items-center z-[2] mq450:text-lgi">
-        Download Brochure
+      <div className="flex ml-auto pr-20">
+        <DownloadBrochure />
       </div>
     </div>
   );
