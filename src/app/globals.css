@@ -26,6 +26,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.nav-link {
+  color: rgb(254 215 170);
+}
+
+.nav-link:hover {
+  color: white;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
