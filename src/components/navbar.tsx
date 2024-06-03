@@ -31,7 +31,7 @@ const Navbar = () => {
                     <button id="menu-toggle" className="text-orange-200 hover:text-white focus:outline-none focus:ring-2 focus:ring-orange-500"
                     onClick={() => setMenuOpen(!menuOpen)}>
                         <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                            <path strokeLinecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
                     </button>
                 </div>
